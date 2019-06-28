@@ -9,7 +9,8 @@
 import Foundation
 
 struct Constants {
-    static let WEBSERVICE_BASE_URL = "https://api.flickr.com/services/rest/?"
+    static let WEBSERVICE_BASE_URL = "https://api.flickr.com/services/rest/?nojsoncallback=1&format=json&tags=kitten&api_key=f9cc014fa76b098f9e82f1c288379ea1&method=flickr.photos.getSizes&page=0&per_page=0&photo_id=48143333346"
+//    static let WEBSERVICE_BASE_URL = "https://api.flickr.com/services/rest/?"
     static let API_KEY = "f9cc014fa76b098f9e82f1c288379ea1"
     static let SEARCH = "flickr.photos.search"
     static let SIZES = "flickr.photos.getSizes"
